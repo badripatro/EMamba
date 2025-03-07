@@ -48,8 +48,8 @@ Download and extract ImageNet images from http://image-net.org/. The directory s
 
 ```
 
-
-
+## EMamba and Other SSM results
+![Results](fig/EMamba_ssm.jpg)
 
 ## Train EMamba small model
 
