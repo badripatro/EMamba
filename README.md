@@ -1,6 +1,6 @@
 # EMamba: Simplified Mamba-based Architecture for Vision and Multivariate Time series
 
-![Intro](fig/emamba_teaser.png)
+![Intro](fig/EMamba_teaser.png)
 
 
 ## Abstract
@@ -10,7 +10,7 @@ Transformers have widely adopted attention networks for sequence mixing and MLPs
 Mamba, while being the state-of-the-art SSM, has a stability issue when scaled to large networks for computer vision datasets. We propose EMamba, a new architecture that introduces Einstein FFT (EinFFT) for channel modeling by specific eigenvalue computations and uses the Mamba block for sequence modeling. Extensive performance studies across image and time-series benchmarks demonstrate that EMamba outperforms existing SSMs, bridging the performance gap with state-of-the-art transformers. Notably, EMamba establishes itself as the new state-of-the-art SSM on ImageNet and transfer learning benchmarks such as Stanford Car and Flower as well as task learning benchmarks as well as seven time series benchmark datasets.
 '''
 
-![Main Model](fig/emamba_main.png)
+![Main Model](fig/EMamba.png)
 
 
 ## Requirement:
